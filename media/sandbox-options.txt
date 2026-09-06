@@ -1,0 +1,43 @@
+VERSION = 1,
+
+option Achievements.ResetOnDeath
+{
+    type = boolean,
+    default = true,
+    page = Achievements,
+    translation = Achievements_ResetOnDeath,
+}
+
+option Achievements.ResetOnSwitch
+{
+    type = boolean,
+    default = true,
+    page = Achievements,
+    translation = Achievements_ResetOnSwitch,
+}
+
+option Achievements.PlaySound
+{
+    type = boolean,
+    default = true,
+    page = Achievements,
+    translation = Achievements_PlaySound,
+}
+
+option Achievements.DisplayDuration
+{
+    type = integer,
+    min = 10,
+    default = 600,
+    max = 10000,
+    page = Achievements,
+    translation = Achievements_DisplayDuration,
+}
+
+option Achievements.KeybindToggleWindow
+{
+    type = string,
+    default = O,
+    page = Achievements,
+    translation = Achievements_KeybindToggleWindow,
+}
